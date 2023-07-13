@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap');
+
+:root
+{
+    --headfont:'DM Serif Display', serif;
+    --bodyfont:'Karla', sans-serif;
+
+    --headweight:400;
+    --bodyweight1:700;
+    --bodyweight2:400;
+}
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html
+{   
+    overflow-x: hidden;
+}
+body
+{
+    position: relative;
+    max-width: 1440px;
+}
+.hero-section .hero
+{
+    background-color: hsl(256, 26%, 20%);
+    color: white;
+    position: relative;
+}
+.hero-section h1
+{
+    font-size: 60px;
+    width: 28rem;
+    font-family: var(--headfont);
+    font-weight: var(--headweight);
+    line-height: 1.1;
+}
+.hero-section p
+{
+    font-size: 18px;
+    font-family: var(--bodyfont);
+}
+hr
+{
+    width: 8rem;
+}
+.hero-p
+{
+    width: 35rem;
+}
+.hero-img
+{
+    position: relative;
+}
+.hero-img img
+{
+    position:inherit;
+    top: 8rem;
+    right: 0;
+}
+.hero-left-pattern
+{
+    width: 10rem;
+    position: absolute;
+    bottom: -18rem;
+    z-index: 1;
+}
+.hero-right-pattern
+{
+    width: 25rem;
+    position:absolute;
+    top: 1rem;
+    right: 0;
+    z-index: 1;
+}
+
+/* about section */
