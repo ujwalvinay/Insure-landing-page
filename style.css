@@ -9,6 +9,10 @@
     --bodyweight1:700;
     --bodyweight2:400;
 }
+p,h4
+{
+    font-family: var(--bodyfont);
+}
 *
 {
     padding: 0;
@@ -125,6 +129,25 @@ hr
 }
 .banner-container button
 {
-    height: 4vh;
+    height: 6vh;
 }
 
+/* Footer area */
+
+.footer-section
+{
+    background-color: hsl(0, 0%, 98%);
+    background-image: url('./images/bg-pattern-footer-desktop.svg');
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+.footer-section h6
+{
+    font-size: 17px;
+}
+.footer-hr
+{
+    width: 100%;
+    border: .25px solid rgb(84, 84, 84);
+    opacity: .5;
+}
