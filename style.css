@@ -259,4 +259,13 @@ hr
     {
         background-image: url('./images/bg-pattern-how-we-work-mobile.svg');
     }
+    .footer-section .footer-logo
+    {
+        width: 120px;
+        margin: auto;
+    }
+    .footer-section
+    {
+        text-align: center;
+    }
 }
