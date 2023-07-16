@@ -158,7 +158,10 @@ hr
     border: .25px solid rgb(84, 84, 84);
     opacity: .5;
 }
-
+.mobile-nav
+{
+    display: none;
+}
 
 @media screen and (max-width:540px) {
     .desktop-nav
@@ -267,5 +270,26 @@ hr
     .footer-section
     {
         text-align: center;
+    }
+    .mobile-nav
+    {
+        z-index: 2;
+        font-size: 18px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        
+    }
+    #mobile-menu-items
+    {
+        background-color:hsl(270, 9%, 17%);
+        color:white;
+        position: relative;
+    }
+    .mobile-nav-pattern
+    {
+        position: relative;
+        right: -2rem;
     }
 }

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>    
+    <title>Insure Landing Page</title>    
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -33,6 +33,34 @@
                 <div class="mobile-menu">
                     <img src="./images/icon-hamburger.svg" alt="" class="hamburger-menu">
                 </div>
+            </nav>
+            <nav class="mobile-nav flex flex-col">
+                <div class="mobile-nav-control bg-white flex px-8 py-8 justify-between pb-12">
+                    <div class="navbar-brand w-30">
+                        <img src="./images/logo.svg" alt="logo" class="logo w-30 ">
+                    </div>
+                    <div class="nav-close-btn">
+                        <img src="./images/icon-close.svg" alt="" class="navclose w-30">
+                    </div>
+                </div>
+                <ul class="nav-menu text-black list-none flex gap-12 pt-12 items-center flex-col mobile-nav text-center" id="mobile-menu-items">
+                    <li class=" py-4">
+                        HOW WE WORK
+                    </li>
+                    <li class=" py-4">
+                        BLOG
+                    </li>
+                    <li class=" py-4">
+                        ACCOUNT
+                    </li>
+                    <li class="py-4">
+                        <button class="border-solid border-2 border-white  px-8 py-2" type="submit">
+                            VIEW PLANS
+                        </button>
+                    </li>
+                    <img src="./images/bg-pattern-mobile-nav.svg" alt="" class="pt-12 mobile-nav-pattern">
+                </ul>
+                
             </nav>
             <div class="hero sm:px-32 py-15 flex sm:flex-row flex-col-reverse justify-between items-center">
                 <img src="./images/bg-pattern-intro-left-mobile.svg" alt="" class="mobile-hero-left-pattern">
