@@ -215,4 +215,48 @@ hr
     {
         display: block;
     }
+    .about-section
+    {
+        margin: auto;
+        text-align: center;
+    }
+    .about-container
+    {
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+    }
+    .about-section hr
+    {
+        margin: auto;
+    }
+    .about-section h2
+    {
+        font-size: 45px;
+    }
+    .inner-container img
+    {
+        margin: auto;
+    }
+    .inner-container p
+    {
+        width: 80%;
+        margin: auto;
+    }
+
+    .banner-container h2
+    {
+        font-size: 40px;
+        width: 90%;
+        text-align: center;
+        margin: auto;
+    }
+    .work-btn
+    {
+        margin-top: 3rem;
+    }
+    .banner-container
+    {
+        background-image: url('./images/bg-pattern-how-we-work-mobile.svg');
+    }
 }
